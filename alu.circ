@@ -188,24 +188,50 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <circ-port height="8" pin="120,210" width="8" x="66" y="116"/>
       <circ-anchor facing="east" height="6" width="6" x="97" y="77"/>
     </appear>
-    <wire from="(300,210)" to="(300,220)"/>
     <wire from="(140,290)" to="(140,300)"/>
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    <wire from="(120,270)" to="(140,270)"/>
+>>>>>>> Stashed changes
     <wire from="(220,220)" to="(220,430)"/>
     <wire from="(120,270)" to="(140,270)"/>
     <wire from="(300,420)" to="(300,430)"/>
+<<<<<<< Updated upstream
+=======
+=======
+    <wire from="(140,60)" to="(140,100)"/>
+    <wire from="(850,110)" to="(850,120)"/>
+    <wire from="(850,160)" to="(850,180)"/>
+    <wire from="(1050,60)" to="(1050,270)"/>
+    <wire from="(120,270)" to="(140,270)"/>
+>>>>>>> parent of a69dbee... Done!
+    <wire from="(850,200)" to="(870,200)"/>
+>>>>>>> Stashed changes
     <wire from="(260,130)" to="(280,130)"/>
     <wire from="(850,200)" to="(870,200)"/>
     <wire from="(850,90)" to="(870,90)"/>
+    <wire from="(140,140)" to="(140,190)"/>
+    <wire from="(850,270)" to="(1050,270)"/>
     <wire from="(120,120)" to="(140,120)"/>
-    <wire from="(220,430)" to="(300,430)"/>
+    <wire from="(120,210)" to="(140,210)"/>
+    <wire from="(10,300)" to="(140,300)"/>
     <wire from="(850,220)" to="(850,270)"/>
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    <wire from="(850,60)" to="(850,70)"/>
+=======
+    <wire from="(140,230)" to="(140,250)"/>
+>>>>>>> parent of a69dbee... Done!
+>>>>>>> Stashed changes
     <wire from="(850,140)" to="(870,140)"/>
     <wire from="(850,60)" to="(850,70)"/>
     <wire from="(260,340)" to="(280,340)"/>
     <wire from="(850,60)" to="(1050,60)"/>
     <wire from="(10,60)" to="(140,60)"/>
-    <wire from="(200,220)" to="(220,220)"/>
     <wire from="(10,60)" to="(10,300)"/>
+<<<<<<< HEAD
     <wire from="(850,110)" to="(850,120)"/>
     <wire from="(140,60)" to="(140,100)"/>
     <wire from="(850,160)" to="(850,180)"/>
@@ -224,15 +250,54 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
       <a name="label" val="X"/>
     </comp>
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> parent of a69dbee... Done!
+    <comp lib="0" loc="(870,90)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Signed Overflow"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+<<<<<<< HEAD
+>>>>>>> Stashed changes
     <comp lib="0" loc="(140,120)" name="Tunnel">
       <a name="width" val="32"/>
       <a name="label" val="X"/>
+=======
+    <comp lib="0" loc="(850,200)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="result"/>
     </comp>
+    <comp lib="5" loc="(76,54)" name="Text">
+      <a name="text" val="INPUTS to your circuit"/>
+>>>>>>> parent of a69dbee... Done!
+    </comp>
+<<<<<<< Updated upstream
     <comp lib="5" loc="(76,54)" name="Text">
       <a name="text" val="INPUTS to your circuit"/>
     </comp>
     <comp lib="0" loc="(260,130)" name="Tunnel">
       <a name="facing" val="east"/>
+=======
+    <comp lib="5" loc="(472,25)" name="Text">
+      <a name="text" val="DON'T CHANGE THE LOCATIONS OF THE INPUTS AND OUTPUTS!"/>
+    </comp>
+<<<<<<< HEAD
+    <comp lib="0" loc="(120,270)" name="Pin">
+=======
+    <comp lib="0" loc="(140,270)" name="Tunnel">
+>>>>>>> parent of a69dbee... Done!
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Switch"/>
+    </comp>
+<<<<<<< HEAD
+    <comp lib="2" loc="(280,130)" name="Demultiplexer">
+      <a name="select" val="4"/>
+>>>>>>> Stashed changes
       <a name="width" val="32"/>
       <a name="label" val="X"/>
     </comp>
@@ -252,12 +317,41 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="2" loc="(280,340)" name="Demultiplexer">
       <a name="select" val="4"/>
-      <a name="width" val="32"/>
+=======
+    <comp lib="0" loc="(870,140)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Equal"/>
+      <a name="labelloc" val="east"/>
     </comp>
+<<<<<<< Updated upstream
+=======
+    <comp lib="0" loc="(140,120)" name="Tunnel">
+>>>>>>> parent of a69dbee... Done!
+      <a name="width" val="32"/>
+      <a name="label" val="X"/>
+    </comp>
+    <comp lib="5" loc="(950,50)" name="Text">
+      <a name="text" val="OUTPUTS from your circuit"/>
+    </comp>
+<<<<<<< HEAD
+>>>>>>> Stashed changes
     <comp lib="0" loc="(120,210)" name="Pin">
       <a name="width" val="32"/>
       <a name="tristate" val="false"/>
       <a name="label" val="Y"/>
+=======
+    <comp lib="0" loc="(850,140)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="equal"/>
+    </comp>
+    <comp lib="0" loc="(870,200)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="Result"/>
+      <a name="labelloc" val="east"/>
+>>>>>>> parent of a69dbee... Done!
     </comp>
     <comp lib="0" loc="(870,200)" name="Pin">
       <a name="facing" val="west"/>
@@ -276,10 +370,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="select" val="4"/>
       <a name="width" val="32"/>
     </comp>
+<<<<<<< HEAD
     <comp lib="0" loc="(850,140)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="equal"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(850,200)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="32"/>
@@ -288,19 +384,47 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(140,270)" name="Tunnel">
       <a name="width" val="4"/>
       <a name="label" val="S"/>
+=======
+    <comp lib="5" loc="(950,50)" name="Text">
+      <a name="text" val="OUTPUTS from your circuit"/>
+=======
+    <comp lib="0" loc="(850,90)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="overflow"/>
+    </comp>
+    <comp lib="0" loc="(120,210)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Y"/>
+>>>>>>> parent of a69dbee... Done!
+>>>>>>> Stashed changes
     </comp>
     <comp lib="0" loc="(140,210)" name="Tunnel">
       <a name="width" val="32"/>
       <a name="label" val="Y"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="5" loc="(950,50)" name="Text">
       <a name="text" val="OUTPUTS from your circuit"/>
+=======
+<<<<<<< HEAD
+    <comp lib="0" loc="(260,340)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="Y"/>
+>>>>>>> Stashed changes
     </comp>
     <comp lib="0" loc="(870,140)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="Equal"/>
       <a name="labelloc" val="east"/>
+=======
+    <comp lib="0" loc="(120,120)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="X"/>
+>>>>>>> parent of a69dbee... Done!
     </comp>
     <comp lib="0" loc="(260,340)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -328,10 +452,23 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(190,80)" to="(200,80)"/>
     <wire from="(580,110)" to="(580,250)"/>
     <wire from="(130,60)" to="(190,60)"/>
+<<<<<<< Updated upstream
     <wire from="(500,60)" to="(500,90)"/>
     <wire from="(550,100)" to="(570,100)"/>
     <wire from="(160,240)" to="(460,240)"/>
     <wire from="(250,60)" to="(250,90)"/>
+=======
+<<<<<<< HEAD
+    <wire from="(250,60)" to="(250,90)"/>
+    <wire from="(160,240)" to="(460,240)"/>
+    <wire from="(550,100)" to="(570,100)"/>
+=======
+    <wire from="(500,60)" to="(500,90)"/>
+    <wire from="(250,60)" to="(250,90)"/>
+    <wire from="(550,100)" to="(570,100)"/>
+    <wire from="(160,240)" to="(460,240)"/>
+>>>>>>> parent of a69dbee... Done!
+>>>>>>> Stashed changes
     <wire from="(380,110)" to="(390,110)"/>
     <wire from="(230,90)" to="(250,90)"/>
     <wire from="(190,60)" to="(190,80)"/>
@@ -365,6 +502,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(380,90)" to="(390,90)"/>
     <wire from="(330,110)" to="(330,230)"/>
     <wire from="(500,60)" to="(560,60)"/>
+<<<<<<< Updated upstream
     <comp lib="2" loc="(350,90)" name="Multiplexer">
       <a name="width" val="32"/>
     </comp>
@@ -396,9 +534,26 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="3" loc="(180,100)" name="Shifter">
       <a name="width" val="32"/>
     </comp>
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
+    <comp lib="3" loc="(430,100)" name="Shifter">
+=======
+    <comp lib="0" loc="(500,110)" name="Constant">
+      <a name="width" val="5"/>
+      <a name="value" val="0x8"/>
+    </comp>
     <comp lib="3" loc="(430,100)" name="Shifter">
       <a name="width" val="32"/>
     </comp>
+    <comp lib="0" loc="(380,110)" name="Constant">
+      <a name="width" val="5"/>
+      <a name="value" val="0x4"/>
+    </comp>
+    <comp lib="2" loc="(350,90)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(110,90)" name="Pin">
       <a name="width" val="32"/>
       <a name="label" val="B"/>
@@ -416,6 +571,18 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(500,110)" name="Constant">
       <a name="width" val="5"/>
       <a name="value" val="0x8"/>
+=======
+    <comp lib="3" loc="(180,100)" name="Shifter">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="3" loc="(550,100)" name="Shifter">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(110,90)" name="Pin">
+>>>>>>> parent of a69dbee... Done!
+      <a name="width" val="32"/>
+      <a name="label" val="B"/>
+>>>>>>> Stashed changes
     </comp>
     <comp lib="0" loc="(140,240)" name="Splitter">
       <a name="fanout" val="5"/>
@@ -449,18 +616,109 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit30" val="none"/>
       <a name="bit31" val="none"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="3" loc="(300,100)" name="Shifter">
       <a name="width" val="32"/>
     </comp>
     <comp lib="3" loc="(550,100)" name="Shifter">
       <a name="width" val="32"/>
     </comp>
-    <comp lib="2" loc="(600,90)" name="Multiplexer">
+=======
+<<<<<<< HEAD
+    <comp lib="0" loc="(740,90)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+=======
+    <comp lib="2" loc="(230,90)" name="Multiplexer">
+>>>>>>> parent of a69dbee... Done!
+      <a name="width" val="32"/>
+      <a name="label" val="out"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="2" loc="(480,90)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+<<<<<<< HEAD
+    <comp lib="0" loc="(110,90)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="label" val="B"/>
+=======
+    <comp lib="3" loc="(670,100)" name="Shifter">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="3" loc="(300,100)" name="Shifter">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(120,240)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="label" val="A"/>
+>>>>>>> parent of a69dbee... Done!
+    </comp>
+    <comp lib="3" loc="(670,100)" name="Shifter">
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(130,110)" name="Constant">
       <a name="width" val="5"/>
     </comp>
+<<<<<<< HEAD
+>>>>>>> Stashed changes
+    <comp lib="2" loc="(600,90)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(130,110)" name="Constant">
+=======
+    <comp lib="0" loc="(250,110)" name="Constant">
+>>>>>>> parent of a69dbee... Done!
+      <a name="width" val="5"/>
+      <a name="value" val="0x2"/>
+    </comp>
+<<<<<<< Updated upstream
+=======
+    <comp lib="0" loc="(620,110)" name="Constant">
+      <a name="width" val="5"/>
+      <a name="value" val="0x10"/>
+    </comp>
+<<<<<<< HEAD
+    <comp lib="2" loc="(720,90)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(380,110)" name="Constant">
+      <a name="width" val="5"/>
+      <a name="value" val="0x4"/>
+    </comp>
+    <comp lib="3" loc="(180,100)" name="Shifter">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="2" loc="(230,90)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="3" loc="(550,100)" name="Shifter">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="3" loc="(300,100)" name="Shifter">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(250,110)" name="Constant">
+      <a name="width" val="5"/>
+      <a name="value" val="0x2"/>
+    </comp>
+    <comp lib="2" loc="(350,90)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(120,240)" name="Pin">
+=======
+    <comp lib="0" loc="(740,90)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="out"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="2" loc="(720,90)" name="Multiplexer">
+>>>>>>> parent of a69dbee... Done!
+      <a name="width" val="32"/>
+    </comp>
+>>>>>>> Stashed changes
   </circuit>
   <circuit name="srl">
     <a name="circuit" val="srl"/>
@@ -482,10 +740,22 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(190,80)" to="(200,80)"/>
     <wire from="(580,110)" to="(580,250)"/>
     <wire from="(130,60)" to="(190,60)"/>
+<<<<<<< Updated upstream
     <wire from="(500,60)" to="(500,90)"/>
     <wire from="(550,100)" to="(570,100)"/>
     <wire from="(160,240)" to="(460,240)"/>
     <wire from="(250,60)" to="(250,90)"/>
+=======
+<<<<<<< HEAD
+    <wire from="(250,60)" to="(250,90)"/>
+    <wire from="(160,240)" to="(460,240)"/>
+    <wire from="(550,100)" to="(570,100)"/>
+=======
+    <wire from="(160,240)" to="(460,240)"/>
+    <wire from="(550,100)" to="(570,100)"/>
+    <wire from="(250,60)" to="(250,90)"/>
+>>>>>>> parent of a69dbee... Done!
+>>>>>>> Stashed changes
     <wire from="(380,110)" to="(390,110)"/>
     <wire from="(230,90)" to="(250,90)"/>
     <wire from="(190,60)" to="(190,80)"/>
@@ -519,6 +789,60 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(380,90)" to="(390,90)"/>
     <wire from="(330,110)" to="(330,230)"/>
     <wire from="(500,60)" to="(560,60)"/>
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+=======
+    <comp lib="0" loc="(620,110)" name="Constant">
+      <a name="width" val="5"/>
+      <a name="value" val="0x10"/>
+    </comp>
+    <comp lib="0" loc="(250,110)" name="Constant">
+      <a name="width" val="5"/>
+      <a name="value" val="0x2"/>
+    </comp>
+    <comp lib="0" loc="(740,90)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="out"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(120,240)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="0" loc="(130,110)" name="Constant">
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="2" loc="(230,90)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="2" loc="(720,90)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="3" loc="(180,100)" name="Shifter">
+      <a name="width" val="32"/>
+      <a name="shift" val="lr"/>
+    </comp>
+    <comp lib="2" loc="(600,90)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="3" loc="(300,100)" name="Shifter">
+      <a name="width" val="32"/>
+      <a name="shift" val="lr"/>
+    </comp>
+    <comp lib="2" loc="(350,90)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(500,110)" name="Constant">
+      <a name="width" val="5"/>
+      <a name="value" val="0x8"/>
+    </comp>
+    <comp lib="0" loc="(380,110)" name="Constant">
+      <a name="width" val="5"/>
+      <a name="value" val="0x4"/>
+    </comp>
     <comp lib="0" loc="(140,240)" name="Splitter">
       <a name="fanout" val="5"/>
       <a name="incoming" val="32"/>
@@ -551,6 +875,105 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit30" val="none"/>
       <a name="bit31" val="none"/>
     </comp>
+>>>>>>> parent of a69dbee... Done!
+    <comp lib="0" loc="(110,90)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="label" val="B"/>
+    </comp>
+<<<<<<< HEAD
+    <comp lib="2" loc="(600,90)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="3" loc="(180,100)" name="Shifter">
+      <a name="width" val="32"/>
+      <a name="shift" val="lr"/>
+    </comp>
+    <comp lib="0" loc="(120,240)" name="Pin">
+=======
+    <comp lib="2" loc="(480,90)" name="Multiplexer">
+>>>>>>> parent of a69dbee... Done!
+      <a name="width" val="32"/>
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="3" loc="(550,100)" name="Shifter">
+<<<<<<< HEAD
+      <a name="width" val="32"/>
+      <a name="shift" val="lr"/>
+    </comp>
+    <comp lib="0" loc="(740,90)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="out"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(130,110)" name="Constant">
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(620,110)" name="Constant">
+      <a name="width" val="5"/>
+      <a name="value" val="0x10"/>
+    </comp>
+    <comp lib="2" loc="(230,90)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(500,110)" name="Constant">
+      <a name="width" val="5"/>
+      <a name="value" val="0x8"/>
+    </comp>
+    <comp lib="3" loc="(670,100)" name="Shifter">
+      <a name="width" val="32"/>
+      <a name="shift" val="lr"/>
+    </comp>
+    <comp lib="3" loc="(430,100)" name="Shifter">
+      <a name="width" val="32"/>
+      <a name="shift" val="lr"/>
+    </comp>
+    <comp lib="0" loc="(250,110)" name="Constant">
+      <a name="width" val="5"/>
+      <a name="value" val="0x2"/>
+    </comp>
+    <comp lib="2" loc="(720,90)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="3" loc="(300,100)" name="Shifter">
+      <a name="width" val="32"/>
+      <a name="shift" val="lr"/>
+    </comp>
+>>>>>>> Stashed changes
+    <comp lib="0" loc="(140,240)" name="Splitter">
+      <a name="fanout" val="5"/>
+      <a name="incoming" val="32"/>
+      <a name="appear" val="center"/>
+      <a name="bit5" val="none"/>
+      <a name="bit6" val="none"/>
+      <a name="bit7" val="none"/>
+      <a name="bit8" val="none"/>
+      <a name="bit9" val="none"/>
+      <a name="bit10" val="none"/>
+      <a name="bit11" val="none"/>
+      <a name="bit12" val="none"/>
+      <a name="bit13" val="none"/>
+      <a name="bit14" val="none"/>
+      <a name="bit15" val="none"/>
+      <a name="bit16" val="none"/>
+      <a name="bit17" val="none"/>
+      <a name="bit18" val="none"/>
+      <a name="bit19" val="none"/>
+      <a name="bit20" val="none"/>
+      <a name="bit21" val="none"/>
+      <a name="bit22" val="none"/>
+      <a name="bit23" val="none"/>
+      <a name="bit24" val="none"/>
+      <a name="bit25" val="none"/>
+      <a name="bit26" val="none"/>
+      <a name="bit27" val="none"/>
+      <a name="bit28" val="none"/>
+      <a name="bit29" val="none"/>
+      <a name="bit30" val="none"/>
+      <a name="bit31" val="none"/>
+    </comp>
+<<<<<<< Updated upstream
     <comp lib="3" loc="(300,100)" name="Shifter">
       <a name="width" val="32"/>
       <a name="shift" val="lr"/>
@@ -588,6 +1011,19 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="value" val="0x10"/>
     </comp>
     <comp lib="2" loc="(600,90)" name="Multiplexer">
+=======
+    <comp lib="2" loc="(350,90)" name="Multiplexer">
+=======
+      <a name="width" val="32"/>
+      <a name="shift" val="lr"/>
+    </comp>
+    <comp lib="3" loc="(670,100)" name="Shifter">
+      <a name="width" val="32"/>
+      <a name="shift" val="lr"/>
+    </comp>
+    <comp lib="3" loc="(430,100)" name="Shifter">
+>>>>>>> parent of a69dbee... Done!
+>>>>>>> Stashed changes
       <a name="width" val="32"/>
     </comp>
     <comp lib="3" loc="(670,100)" name="Shifter">
@@ -641,10 +1077,23 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(190,80)" to="(200,80)"/>
     <wire from="(580,110)" to="(580,250)"/>
     <wire from="(130,60)" to="(190,60)"/>
+<<<<<<< Updated upstream
     <wire from="(500,60)" to="(500,90)"/>
     <wire from="(550,100)" to="(570,100)"/>
     <wire from="(160,240)" to="(460,240)"/>
     <wire from="(250,60)" to="(250,90)"/>
+=======
+<<<<<<< HEAD
+    <wire from="(250,60)" to="(250,90)"/>
+    <wire from="(160,240)" to="(460,240)"/>
+    <wire from="(550,100)" to="(570,100)"/>
+=======
+    <wire from="(500,60)" to="(500,90)"/>
+    <wire from="(250,60)" to="(250,90)"/>
+    <wire from="(550,100)" to="(570,100)"/>
+    <wire from="(160,240)" to="(460,240)"/>
+>>>>>>> parent of a69dbee... Done!
+>>>>>>> Stashed changes
     <wire from="(380,110)" to="(390,110)"/>
     <wire from="(230,90)" to="(250,90)"/>
     <wire from="(190,60)" to="(190,80)"/>
@@ -678,6 +1127,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(380,90)" to="(390,90)"/>
     <wire from="(330,110)" to="(330,230)"/>
     <wire from="(500,60)" to="(560,60)"/>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(740,90)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -689,6 +1139,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(380,110)" name="Constant">
+=======
+<<<<<<< HEAD
+    <comp lib="0" loc="(250,110)" name="Constant">
+>>>>>>> Stashed changes
       <a name="width" val="5"/>
       <a name="value" val="0x4"/>
     </comp>
@@ -702,12 +1156,28 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="0" loc="(620,110)" name="Constant">
       <a name="width" val="5"/>
+<<<<<<< Updated upstream
       <a name="value" val="0x10"/>
+=======
+=======
+    <comp lib="0" loc="(620,110)" name="Constant">
+      <a name="width" val="5"/>
+      <a name="value" val="0x10"/>
+    </comp>
+    <comp lib="3" loc="(670,100)" name="Shifter">
+      <a name="width" val="32"/>
+      <a name="shift" val="ar"/>
+    </comp>
+    <comp lib="2" loc="(480,90)" name="Multiplexer">
+      <a name="width" val="32"/>
+>>>>>>> parent of a69dbee... Done!
+>>>>>>> Stashed changes
     </comp>
     <comp lib="3" loc="(430,100)" name="Shifter">
       <a name="width" val="32"/>
       <a name="shift" val="ar"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="2" loc="(600,90)" name="Multiplexer">
       <a name="width" val="32"/>
     </comp>
@@ -731,7 +1201,50 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="value" val="0x8"/>
     </comp>
     <comp lib="2" loc="(480,90)" name="Multiplexer">
+=======
+<<<<<<< HEAD
+    <comp lib="2" loc="(720,90)" name="Multiplexer">
       <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(110,90)" name="Pin">
+=======
+    <comp lib="2" loc="(350,90)" name="Multiplexer">
+>>>>>>> parent of a69dbee... Done!
+>>>>>>> Stashed changes
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(250,110)" name="Constant">
+      <a name="width" val="5"/>
+      <a name="value" val="0x2"/>
+    </comp>
+    <comp lib="0" loc="(130,110)" name="Constant">
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(740,90)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="out"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="3" loc="(550,100)" name="Shifter">
+      <a name="width" val="32"/>
+      <a name="shift" val="ar"/>
+    </comp>
+    <comp lib="3" loc="(180,100)" name="Shifter">
+      <a name="width" val="32"/>
+      <a name="shift" val="ar"/>
+    </comp>
+    <comp lib="2" loc="(230,90)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="3" loc="(430,100)" name="Shifter">
+      <a name="width" val="32"/>
+      <a name="shift" val="ar"/>
+    </comp>
+    <comp lib="0" loc="(120,240)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="label" val="A"/>
     </comp>
     <comp lib="0" loc="(140,240)" name="Splitter">
       <a name="fanout" val="5"/>
@@ -765,7 +1278,37 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit30" val="none"/>
       <a name="bit31" val="none"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="0" loc="(110,90)" name="Pin">
+=======
+<<<<<<< HEAD
+    <comp lib="3" loc="(300,100)" name="Shifter">
+      <a name="width" val="32"/>
+      <a name="shift" val="ar"/>
+    </comp>
+    <comp lib="0" loc="(740,90)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="out"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(620,110)" name="Constant">
+      <a name="width" val="5"/>
+      <a name="value" val="0x10"/>
+    </comp>
+    <comp lib="2" loc="(480,90)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="3" loc="(180,100)" name="Shifter">
+      <a name="width" val="32"/>
+      <a name="shift" val="ar"/>
+    </comp>
+    <comp lib="2" loc="(350,90)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="3" loc="(670,100)" name="Shifter">
+>>>>>>> Stashed changes
       <a name="width" val="32"/>
       <a name="label" val="B"/>
     </comp>
@@ -778,7 +1321,18 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="2" loc="(350,90)" name="Multiplexer">
       <a name="width" val="32"/>
+<<<<<<< Updated upstream
+=======
+      <a name="label" val="A"/>
     </comp>
+=======
+>>>>>>> parent of a69dbee... Done!
+    <comp lib="0" loc="(500,110)" name="Constant">
+      <a name="width" val="5"/>
+      <a name="value" val="0x8"/>
+>>>>>>> Stashed changes
+    </comp>
+<<<<<<< HEAD
   </circuit>
   <circuit name="switch">
     <a name="circuit" val="switch"/>
@@ -1010,15 +1564,23 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="Output"/>
       <a name="labelloc" val="east"/>
     </comp>
+<<<<<<< Updated upstream
     <comp lib="3" loc="(350,140)" name="Comparator">
       <a name="width" val="32"/>
       <a name="mode" val="unsigned"/>
     </comp>
     <comp lib="0" loc="(160,70)" name="Pin">
+=======
+    <comp lib="0" loc="(160,210)" name="Pin">
+=======
+    <comp lib="2" loc="(600,90)" name="Multiplexer">
+>>>>>>> parent of a69dbee... Done!
+>>>>>>> Stashed changes
       <a name="width" val="32"/>
       <a name="tristate" val="false"/>
       <a name="label" val="X"/>
     </comp>
+<<<<<<< HEAD
   </circuit>
   <circuit name="add">
     <a name="circuit" val="add"/>
@@ -1333,9 +1895,15 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(200,180)" name="Pin">
+=======
+    <comp lib="0" loc="(110,90)" name="Pin">
       <a name="width" val="32"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="X"/>
+      <a name="label" val="B"/>
+    </comp>
+    <comp lib="3" loc="(300,100)" name="Shifter">
+>>>>>>> parent of a69dbee... Done!
+      <a name="width" val="32"/>
+      <a name="shift" val="ar"/>
     </comp>
     <comp lib="0" loc="(200,300)" name="Pin">
       <a name="width" val="32"/>
